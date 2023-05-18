@@ -4,7 +4,7 @@ import CountriesContainer from './containers/CountriesContainer';
 
 function App() {
   return (
-    <>
+    <>      
       <CountriesContainer/> 
     </>
   );
