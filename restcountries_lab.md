@@ -18,6 +18,21 @@ You will be working in pairs and will be building a **country bucket list**, com
 - Create a means to mark a country as "visited"
 - Additionally display a list of "visited countries"
 
+`Container`
+ <!--Load all the countries to be displayed as a list display on the countries component  -->
+ <!-- Next to each item add a button to mark it as visited -->
+<!-- If a country is marked as visited - append it to another separate list -->
+
+<!-- functions: 
+1)addCountryToVisitedList() [VisitedCountriesComponent],   
+2)markCountryasVisited() [CountriesComponent & VisitedCountriesComponent]
+ -->
+<!-- Container:
+1) fetch the data from the api and display the name of a country as a list-->
+
+ <!-- states:
+ VisitedCountries - call 1&2(2 in 1) Countries - call 2 -->
+
 Before you jump into the code, let's think about the architecture of your frontend, and where things should be put. Firstly, let's take a look at one (possible) way to implement it. Here is a breakdown of the proposed layout:
 
 <img src="./images/layout-breakdown.jpeg" alt="Layout breakdown" height="500" />
